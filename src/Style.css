@@ -6,8 +6,18 @@ html{
     font-size: 16px;
 }
 
-.button{
+.button1{
     margin-top: 0.9rem;
+    margin-right: 1.5rem;
+}
+
+.button2{
+    margin: 0.9rem 1.5rem 0rem 1.5rem;
+}
+
+.button3{
+    margin-top: 0.9rem;
+    margin-left: 1.5rem;
 }
 
 body{

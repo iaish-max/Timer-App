@@ -19,7 +19,7 @@ function Button(props) {
    
     const handleClick = () => {
 
-        console.log('Button Clicked');
+        // console.log('Button Clicked');
 
         const timeSlot = {
             hunOfSecond: props.hunOfSecond,
@@ -37,6 +37,7 @@ function Button(props) {
         })
 
     }
+
 
     const display = (items , i) => {
         return (
@@ -59,7 +60,11 @@ function Button(props) {
                 second= {props.second}
                 minute= {props.minute}
                 hour= {props.hour}
+                isRunning= {props.isRunning}
+
                 handleClick= {handleClick}
+                handleClickStartORPause = {props.handleClickStartORPause}
+                handleClickReset= {props.handleClickReset}
             />
 
             <ItemsList 
